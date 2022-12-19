@@ -3,4 +3,5 @@ skinparam Style strictuml
 A -> B : Hello world
 B -> A : Hi
 A <- B : OK
+A -> C : siemka
 @enduml
