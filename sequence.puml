@@ -1,6 +1,7 @@
 @startuml Hello_World
 skinparam Style strictuml
 Actor Wojtek #lightGreen
+database vc #yellow
 Wojtek ->> A
 A -> B : Hello world
 B -> A : Hi
