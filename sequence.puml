@@ -1,7 +1,9 @@
-@startuml Hello World
+@startuml Hello_World
 skinparam Style strictuml
 A -> B : Hello world
 B -> A : Hi
 A <- B : OK
 A -> C : siemka
+C -> B : return
+B -> A : end
 @enduml
